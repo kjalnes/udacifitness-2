@@ -1,9 +1,9 @@
-import { ADD_ENTRY, RECEICE_ENTRIES } from '../actions';
+import { ADD_ENTRY, RECEIVE_ENTIRES } from '../actions';
 
 function entries(state={}, action) {
     // console.log('action:', action)
     switch (action.type) {
-        case RECEICE_ENTRIES :
+        case RECEIVE_ENTIRES :
             // console.log('entries in reducer', entries)
             return {
                 ...state,
